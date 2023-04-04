@@ -1,7 +1,10 @@
 # Lastest 
+## 2023.4.4
+- 测试angular8版本发现，custom-webpack8.0.0版本有问题，用8.1.0版本测试通过
 
-## 2023.4.3 
-- 测试angular6版本后发现，custom-webpack在8版本之前都没有dev-server，需要额外下载@angular-builders/dev-server，已兼容
+
+## 2023.4.3
+- 测试angular6版本后发现，custom-webpack在8版本之前都没有dev-server，因此angular6-8版本需要额外下载@angular-builders/dev-server，已兼容
 - angular11版本前统一用名称匹配；angular11版本后统一用路径匹配；
 
 ## 2023.3.31
@@ -12,8 +15,6 @@
 
 - 更新Chrome新版本删除了鼠标右击的event.path属性，已更新app.component.ts代码，详情见：https://juejin.cn/post/7177645078146449466
  
-
-
 # Feature
 angular右击组件在vscode中直接打开源码，工程所需调整的脚本，用go实现；
 
