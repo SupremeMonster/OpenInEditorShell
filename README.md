@@ -14,7 +14,7 @@
  
 
 
-# OpenInEditorShell
+# Feature
 angular右击组件在vscode中直接打开源码，工程所需调整的脚本，用go实现；
 
 功能链接地址 ：[https://github.com/SupremeMonster/ng-devtools-openInEditor]
