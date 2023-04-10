@@ -29,7 +29,8 @@ angular右击组件在vscode中直接打开源码，工程所需调整的脚本�
 
 - 1、目前只支持Windows
 - 2、文件处理后，会自动执行npm install，依实际情况可自行安装
-- 3、针对理想化的angular尚未开启自定义webpack配置做的文件处理，如果项目已经配置了webpack，需要自行检查处理结果。
+- 3、针对理想化的angular尚未开启自定义webpack配置做的文件处理，如果项目已经配置了webpack，需要自行检查处理结果，尤其注意mergeRules里面的prepend/append。
 - 4、生产环境需要关闭
 - 5、目前低于Angular11版本用名称匹配，存在查找到文件并打开时，触发编译，导致页面刷新，正在解决中...
 - 6、需要对app.component.ts做一些处理，会替换里面的ngOnInit方法，如果没有，会提示错误，请手动添加一个ngOnInit空钩子函数。
+- 7、如果项目中有了extra-webpack.config.js，会跳过更新，请手动添加devServer/module.rules
